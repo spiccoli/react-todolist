@@ -27,7 +27,12 @@ body{
     font-size: 1vw;
     flex-grow: 1;
   }
+  ol{
+    color: red;
+    font-size: 1vw;
+  }
   .text{
+    color: black;
     font-size: 2vw;
   }
   .input-add{
