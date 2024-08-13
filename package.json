@@ -1,6 +1,6 @@
 {
   "homepage": "https://spiccoli.github.io/react-todolist/",
-  "name": "stylecomponents",
+  "name": "react-todolist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
