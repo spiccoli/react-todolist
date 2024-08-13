@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function ToDoList() {
   const [tasks, setTasks] = useState(["Example A", "Example B", "Example C"]);

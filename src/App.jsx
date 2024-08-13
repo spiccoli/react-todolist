@@ -1,11 +1,11 @@
 import ToDoList from './ToDoList.jsx';
 
 function App() {
-  return ( 
+  return (
     <>
-    <ToDoList />
+      <ToDoList />
     </>
-   );
+  );
 }
 
 export default App;
