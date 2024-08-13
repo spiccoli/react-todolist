@@ -1,0 +1,92 @@
+/* ToDoList.css */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Container for the entire to-do list */
+.todo-container {
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 2vw; /* Changed from 20px to 2vw */
+  }
+  
+  /* Heading style */
+  h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 2vw; /* Changed from 20px to 2vw */
+  }
+  
+  /* Input field style */
+  input {
+    padding: 0.8vw; /* Changed from 8px to 0.8vw */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1vw;
+    flex-grow: 1;
+  }
+  .text{
+    font-size: 2vw;
+  }
+  .input-add{
+    display: flex;
+    align-items: center;
+  }
+  /* "Add" button style */
+  .add-button {
+    padding: 1vw;
+    font-size: 0.9vw; /* Changed from 20px to 2vw */
+  }
+  
+  /* Delete button style */
+  .delete-button {
+    margin-left: 6vw;
+  }
+  
+  /* General button style */
+  button {
+    padding: 0.5vw; /* Changed from 5px to 0.5vw */
+    margin: 0.5vw; /* Changed from 5px to 0.5vw */
+    align-items: center;
+    appearance: none;
+    background-color: #fcfcfd;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 0.2vw 0.4vw, rgba(45, 35, 66, 0.3) 0 0.7vw 1.3vw -0.3vw, #d6d6e7 0 -0.3vw 0 inset;
+    box-sizing: border-box;
+    color: #36395a;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 1.4vw; /* Changed from 14px to 1.4vw */
+  }
+  
+  button:focus {
+    box-shadow: #d6d6e7 0 0 0 0.15vw inset, rgba(45, 35, 66, 0.4) 0 0.2vw 0.4vw, rgba(45, 35, 66, 0.3) 0 0.7vw 1.3vw -0.3vw, #d6d6e7 0 -0.3vw 0 inset;
+  }
+  
+  button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 0.4vw 0.8vw, rgba(45, 35, 66, 0.3) 0 0.7vw 1.3vw -0.3vw, #d6d6e7 0 -0.3vw 0 inset;
+    transform: translateY(-0.2vw);
+  }
+  
+  button:active {
+    box-shadow: #d6d6e7 0 0.3vw 0.7vw inset;
+    transform: translateY(0.2vw);
+  }
+  
