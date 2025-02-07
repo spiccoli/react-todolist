@@ -1,3 +1,4 @@
 # [https://spiccoli.github.io/react-todolist/](https://spiccoli.github.io/react-todolist/) 📝
-![image](https://github.com/user-attachments/assets/0dd71d07-b9ec-4ebc-82e8-3e825d69a74e)
+![image](https://github.com/user-attachments/assets/77119e52-8c61-46dd-b858-cc73c6c09ae4)
+
 
