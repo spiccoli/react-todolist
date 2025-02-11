@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: deb887b8;
+    background: #deb887b8;
 }
 
 /* Container for the entire to-do list */
@@ -34,7 +34,7 @@ input {
 }
 
 ol {
-    color: red;
+    color: black;
     font-size: 1vw;
 }
 
@@ -58,6 +58,10 @@ ol {
 /* Delete button style */
 .delete-button {
     margin-left: 6vw;
+}
+
+.task-text{
+    font-size: 2.5rem;
 }
 
 /* General button style */
@@ -107,3 +111,6 @@ button:active {
     box-shadow: #d6d6e7 0 0.3vw 0.7vw inset;
     transform: translateY(0.2vw);
 }
+li::marker {
+    color: red;
+  }
